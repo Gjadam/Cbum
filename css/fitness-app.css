@@ -248,6 +248,7 @@ i {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    padding: 5rem 0;
 }
 .membership__left-wrapper {
     display: flex;
@@ -263,7 +264,7 @@ i {
 .membership__text {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-txt);
-    max-width: 28rem;
+    max-width: 51rem;
     margin: 5rem 0;
 }
 
@@ -309,8 +310,8 @@ i {
     text-align: center;
 }
 .footer__title {
-    text-align: center;
     font-size: 3.5rem;
+    text-align: center;
 }
 .footer__links__wrapper {
     display: flex; 
