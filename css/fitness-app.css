@@ -310,9 +310,8 @@ i {
     text-align: center;
 }
 .footer__title {
-    font-size: var(--header-footer-font-size-big);
-    max-width: 61rem;
     text-align: center;
+    font-size: 3.5rem;
 }
 .footer__links__wrapper {
     display: flex; 
