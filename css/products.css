@@ -1,0 +1,109 @@
+@import url('/css/module/variables.css');
+@import url('/css/module/fonts.css');
+@import url('/css/module/defaults.css');
+@import url('/css/module/navbar.css');
+@import url('/css/module/footer.css');
+
+
+
+.main {
+    border-top: 1px solid var(--border-color);
+}
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 5rem;
+}
+
+.product__image__photo {
+    max-width: 80rem;
+    margin-right: 5rem;
+}
+.product__detail {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.product__detail__title {
+    font-size: 2rem;
+    color: var(--text-color);
+    letter-spacing: var(--text-spacing);
+}
+.product__detail__price {
+    font-size: 1.5rem;
+    color: var(--price-color);
+    letter-spacing: var(--text-spacing);
+}
+
+.product__detail__size-title {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+.product__detail__size-wrapper {
+    margin: 1.5rem 0;
+}
+.product__detail__size {
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+.product__detail__size:focus {
+    border-color: var(--border-color-dark);
+}
+
+.product__detail__qty-title {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.product__detail__qty {
+    max-width: 5rem;
+    outline: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+.product__detail__add-product-btn {
+    border: 1px solid var(--border-color-dark);
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    color: var(--border-color-dark);
+    position: relative;
+}
+
+.product__detail__add-product-btn:hover {
+    color: var(--white-color);
+}
+
+.product__detail__add-product-btn::before {
+    content: "";
+    background-color: var(--border-color-dark);
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease-out;
+    z-index: -1;
+}
+
+.product__detail__add-product-btn:hover::before {
+    width: 100%;
+}
+
+.product__detail__desc {
+    font-family: "Poppins";
+    font-weight: 900;
+    margin-top: 3rem;
+    
+}
+.product__detail__desc__item {
+    font-weight: 100;
+    list-style-type: disc;
+    margin: 0.5rem 5rem;
+}

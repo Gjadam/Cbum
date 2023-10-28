@@ -1,0 +1,29 @@
+@import url('/css/module/variables.css');
+@import url('/css/module/fonts.css');
+@import url('/css/module/defaults.css');
+@import url('/css/module/navbar.css');
+@import url('/css/module/footer.css');
+@import url('/css/module/product-box.css');
+
+
+
+.main {
+    border: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-collections-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar__items:first-child:hover {
+    .navbar__DropdownMenu {
+        display: block;
+    }
+}

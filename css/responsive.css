@@ -1,0 +1,81 @@
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .navbar__item {
+        display: none;
+    }
+    .navbar__btn-navigation {
+        display: block;
+    }
+    .navbar__mobile-nav {
+        display: block;
+    }
+    .navbar-app {
+        justify-content: space-between;
+    }
+    .orders__wrapper {
+        justify-content: center;
+    }
+    .membership {
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .footer-wrapper {
+        justify-content: start;
+    }
+    .product__image__photo {
+        max-width: 40rem;
+    }
+    .product-collections-wrapper {
+        justify-content: center;
+    }
+    .header-app__title-short {
+        display: none;
+    }
+    .header-app__title-big {
+        font-size: 32px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .navbar-app__links__wrapper {
+        display: none;
+    }
+    .navbar-app__mobile {
+        display: flex;
+    }
+    .header-content {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+    .navbar__all-wrapper {
+        justify-content: end;
+        flex-direction: row-reverse;
+    }
+    .navbar__logo {
+        padding: 0 1rem;
+        margin-bottom: 0.2rem;
+    }
+    .navbar__btn-navigation {
+        left: 4rem;
+    }
+    .navbar-app__logo {
+        width: 10rem;
+    }
+
+}

@@ -1,0 +1,96 @@
+/* Start Footer */
+
+.footer {
+    border-top: 1px solid var(--border-color);
+    }
+    
+    .footer-wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .footer__items {
+        font-family: "Poppins";
+        margin: 2rem;
+    }
+    .footer__title {
+        color: var(--text-color);
+        letter-spacing: var(--text-spacing);
+        padding: 2rem 0;
+    }
+    .footer__item__link {
+        color: var(--price-color);
+        line-height: 3.5rem;
+        position: relative;
+        transition: all 0.3s;
+    }
+    
+    .footer__item__link::after {
+        content: "";
+        background-color: var(--border-color-dark);
+        width: 0;
+        height: 0.1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: all 0.3s;
+    }
+    
+    .footer__item__link:hover::after {
+        width: 100%;
+    }
+    
+    .footer__item__text {
+        max-width: 30rem;
+        color: var(--price-color);
+    }
+    .footer__item__input {
+        border: 1px solid var(--border-color);
+        padding: 1.5rem 1.5rem;
+        outline: none;
+        margin: 2rem 0;
+        min-width: 25rem;
+    }
+    .footer__item__btn {
+        border: 1px solid var(--border-color-dark);
+        padding: 1rem 2.5rem;
+        color: var(--line-color);
+        letter-spacing: var(--text-spacing);
+        position: relative;
+        transition: all 0.3s;
+    }
+    
+    .footer__item__btn:hover {
+        color: var(--white-color);
+    }
+    
+    .footer__item__btn::before {
+        content: "";
+        background-color: var(--border-color-dark);
+        width: 0;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.3s;
+    }
+    
+    .footer__item__btn:hover::before {
+        width: 100%;
+    } 
+    
+    .footer__item__social-icon__items {
+        width: 5rem;
+    }
+    
+
+    .footer__copyright {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        font-family: "Satoshi Black";
+    }
+    /* End Footer */

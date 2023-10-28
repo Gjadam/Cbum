@@ -1,0 +1,106 @@
+@import url('/css/module/variables.css');
+@import url('/css/module/fonts.css');
+@import url('/css/module/defaults.css');
+@import url('/css/module/navbar.css');
+@import url('/css/module/footer.css');
+
+
+.main {
+    border-top: 1px solid var(--border-color);
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15rem 0;
+}
+.login__title {
+    font-size: 2.5rem;
+    letter-spacing: var(--text-spacing);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+.login__text {
+    font-size: 1.5rem;
+    word-spacing: var(--text-spacing);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+.login__password-wrapper {
+    position: relative;
+}
+
+.login__forgot-pass {
+    position: absolute;
+    right: 1rem;
+    top: 2.6rem;
+    font-size: 1.2rem;
+    color: var(--price-color);
+}
+
+.login__email:focus {
+    border: 1px solid var(--border-color-dark);
+}
+
+.login__password:focus {
+    border: 1px solid var(--border-color-dark);
+}
+
+.login__btn {
+    border: 1px solid var(--border-color-dark);
+    width: 40rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    letter-spacing: var(--text-spacing);
+    color: var(--border-color-dark);
+    position: relative;
+}
+
+.login__btn:hover {
+    color: var(--white-color);
+}
+
+.login__btn::before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: var(--border-color-dark);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.login__btn:hover::before {
+    width: 100%;
+} 
+
+.login__create-account {
+    word-spacing: var(--text-spacing);
+    color: var(--price-color);
+    font-size: 1.5rem;
+}
+.login__create-account__link {
+    color: var(--text-color);
+}
+
+
+
+
+.--box-style {
+    border: 1px solid var(--border-color);
+    outline: none;
+    width: 40rem;
+    height: 5rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.--box-style:focus {
+    border: 1px solid var(--border-color-dark);
+}

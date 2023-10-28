@@ -1,0 +1,27 @@
+@import url('/css/module/variables.css');
+@import url('/css/module/fonts.css');
+@import url('/css/module/defaults.css');
+@import url('/css/module/navbar.css');
+@import url('/css/module/footer.css');
+
+
+
+.contact__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+.contact__title {
+    font-size: 2.5rem;
+    color: var(--border-color-dark);
+    letter-spacing: var(--text-spacing);
+    margin-bottom: 4rem;
+}
+.contact__text {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    padding: 1rem;
+}

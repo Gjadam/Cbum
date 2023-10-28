@@ -1,0 +1,26 @@
+:root {
+    --heading-font-family: "Roboto";
+    --text-font-family: "Poppins";
+    --text-font-family: "Satoshi";
+    --white-color: #ffffff;
+    --text-color: #5c5c5c;
+    --border-color-dark: #5c5c5c;
+    --text-spacing: 0.3rem;
+    --border-color: #e7e7e7;
+    --line-color: #323232;
+    --price-color: #939393;
+    --header-font-size: 1.5rem;
+    --product-font-size: 1.3rem;
+    --product-line-height: 3rem;
+    --section-padding: 5rem;
+    --header-footer-font-size-big: 60px;
+    --header-footer-font-size-short: 18px;
+    --main-QA-gallery-font-size-title: 40px;
+    --main-QA-font-size-txt: 16px;
+    --QA-font-size-title: 1rem;
+    --primary-color-light: #fff;
+    --primary-color-dark: #000;
+    --text-letter-spacing: 0.200em;
+    --line-height-text : 1.75;
+    --section-padding-fitness-app: 25rem 0;
+}

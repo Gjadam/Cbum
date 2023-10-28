@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins Medium";
+    src: url("/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url("/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Satoshi";
+    src: url("/fonts/satoshi/Satoshi-Regular.otf");
+}
+@font-face {
+    font-family: "Satoshi Black";
+    src: url("/fonts/satoshi/Satoshi-Black.otf");
+}

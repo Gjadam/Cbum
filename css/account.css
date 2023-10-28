@@ -1,0 +1,68 @@
+@import url('/css/module/variables.css');
+@import url('/css/module/fonts.css');
+@import url('/css/module/defaults.css');
+@import url('/css/module/navbar.css');
+@import url('/css/module/footer.css');
+
+.main {
+    border-top: 1px solid var(--border-color);
+
+}
+
+.main__wrapper {
+    margin-left: 4rem;
+}
+
+.account__logout {
+    color: var(--price-color);
+    letter-spacing: var(--text-spacing);
+    font-size: 1.3rem;
+}
+.account__title {
+    letter-spacing: var(--text-spacing);
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin: 2rem 0;
+}
+.account__text {
+    font-family: "Poppins";
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+.orders {
+    margin: 5rem 0;
+}
+.orders__title {
+    color: var(--price-color);
+    word-spacing: var(--text-spacing);
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.orders__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.orders__order-content {
+    text-align: center;
+    padding: 1.5rem 6rem;
+    margin: 1rem;
+}
+.order-content__image {
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+.order-content__name {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    letter-spacing: var(--text-spacing);
+    max-width: 20rem;
+}
+.order-content__price {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    letter-spacing: var(--text-spacing);
+}

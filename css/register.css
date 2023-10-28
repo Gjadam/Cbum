@@ -1,0 +1,57 @@
+@import url('/css/login.css');
+
+.main {
+    border-top: 1px solid var(--border-color);
+}
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15rem 0;
+}
+.sign__title {
+    font-size: 2.5rem;
+    letter-spacing: var(--text-spacing);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+.sign__text {
+    font-size: 1.5rem;
+    word-spacing: var(--text-spacing);
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+
+
+.sign__btn {
+    border: 1px solid var(--border-color-dark);
+    width: 40rem;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    text-align: center;
+    letter-spacing: var(--text-spacing);
+    color: var(--border-color-dark);
+    position: relative;
+}
+
+.sign__btn:hover {
+    color: var(--white-color);
+}
+
+.sign__btn::before {
+    content: "";
+    width: 0;
+    height: 100%;
+    background-color: var(--border-color-dark);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+
+.sign__btn:hover::before {
+    width: 100%;
+} 
