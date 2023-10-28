@@ -55,7 +55,7 @@ searchIcon.forEach( icon => {
                 flag = true
             }
         } else if(e.target.dataset.name === 'shop') {
-            shopSlider.style.right = '0'
+            shopSlider.style.right = '-1.3rem'
         }
     })
 })
