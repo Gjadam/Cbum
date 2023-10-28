@@ -17,6 +17,7 @@
     font-size: var(--product-font-size);
     letter-spacing: var(--text-spacing);
     line-height: var(--product-line-height);
+    text-align: center;
 }
 .product-content__price {
     color: var( --price-color);
