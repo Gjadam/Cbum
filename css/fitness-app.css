@@ -264,7 +264,7 @@ i {
 .membership__text {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-txt);
-    max-width: 51rem;
+    max-width: 28rem;
     margin: 5rem 0;
 }
 
@@ -273,7 +273,6 @@ i {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-width: 46rem;
 }
 .membership__img-top-wrapper {
     margin-left: 5rem;
