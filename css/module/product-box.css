@@ -9,7 +9,7 @@
     flex-direction: column;
 }
 .product-content__img {
-    width: 40rem;
+    width: 35rem;
     border-radius: 1rem;
 }
 .product-content__title {
