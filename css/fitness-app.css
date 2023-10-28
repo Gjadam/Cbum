@@ -248,7 +248,6 @@ i {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5rem 0;
 }
 .membership__left-wrapper {
     display: flex;
