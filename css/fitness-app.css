@@ -9,10 +9,14 @@ html {
     font-size: 10px;
 
 }
-*,*::after,*::before {
+
+*,
+*::after,
+*::before {
     outline: none;
     box-sizing: inherit;
 }
+
 body {
     line-height: 1.6;
     font-family: "Satoshi Black";
@@ -49,6 +53,7 @@ i {
     height: 90vh;
     padding: 3rem 0;
 }
+
 .navbar-app {
     display: flex;
     justify-content: space-around;
@@ -57,6 +62,7 @@ i {
     transition: all 0.3s ease-in-out;
     position: relative;
 }
+
 .navbar-app__logo {
     width: 13rem;
 }
@@ -81,7 +87,7 @@ i {
     cursor: pointer;
     position: relative;
     transform: rotate(-45deg);
-    transition: all 0.2s ;
+    transition: all 0.2s;
 }
 
 .navbar-app__mobile__icon::before,
@@ -94,7 +100,8 @@ i {
     background-color: var(--primary-color-light);
     cursor: pointer;
     transition: all 0.3s ease-in-out;
-} 
+}
+
 .navbar-app__mobile__icon::before {
     bottom: 0;
 }
@@ -138,13 +145,16 @@ i {
     margin: 25rem 0;
     letter-spacing: var(--text-letter-spacing);
 }
+
 .header-app__title-short {
     font-size: var(--header-footer-font-size-short);
 }
+
 .header-app__title-big {
     font-size: var(--header-footer-font-size-big);
     max-width: 100rem;
 }
+
 .header-app__links__wrapper {
     display: flex;
     justify-content: center;
@@ -152,6 +162,7 @@ i {
     flex-wrap: wrap;
     margin: 5rem 0;
 }
+
 .header-app__link {
     margin: 1rem;
 }
@@ -173,16 +184,19 @@ i {
     align-items: center;
     flex-direction: column;
 }
+
 .app__image {
     width: 100%;
     max-width: 120rem;
     margin: 5rem 0;
 }
+
 .app__title {
     font-size: var(--main-QA-gallery-font-size-title);
     color: var(--primary-color-light);
     text-align: center;
 }
+
 .app__text {
     font-size: var(--main-QA-gallery-font-size-txt);
     color: var(--primary-color-light);
@@ -217,11 +231,44 @@ i {
     padding: var(--section-padding-fitness-app);
 }
 
+.live__animation__wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.live__animation__icon {
+    background-color: red;
+    padding: 0.7rem;
+    border-radius: 50%;
+    margin: 0 0.5rem 0.2rem 0;
+    animation: liveIcon 2s infinite linear;
+}
+
+@keyframes liveIcon {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.live__animation__title {
+    color: var(--white-color);
+    font-size: 2.5rem;
+}
 
 .live__img {
     width: 100%;
     max-width: 40rem;
 }
+
 .live__content-wrapper {
     display: flex;
     justify-content: space-evenly;
@@ -234,6 +281,7 @@ i {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-title);
 }
+
 .live__text {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-txt);
@@ -250,17 +298,20 @@ i {
     flex-wrap: wrap;
     padding: 5rem 0;
 }
+
 .membership__left-wrapper {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
 }
+
 .membership__title {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-title);
     max-width: 10rem;
 }
+
 .membership__text {
     color: var(--primary-color-light);
     font-size: var(--main-QA-gallery-font-size-txt);
@@ -274,6 +325,7 @@ i {
     align-items: center;
     flex-direction: column;
 }
+
 .membership__img-top-wrapper {
     margin-left: 5rem;
 }
@@ -281,9 +333,11 @@ i {
 .membership__img-center-wrapper {
     margin-right: 5rem;
 }
+
 .membership__img-bottom-wrapper {
     margin-left: 5rem;
 }
+
 .membership__img {
     width: 20rem;
 }
@@ -299,26 +353,31 @@ i {
     background-position: center;
     background-size: cover;
 }
+
 .footer__title-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .footer__text {
     font-size: var(--header-footer-font-size-short);
     text-align: center;
 }
+
 .footer__title {
     font-size: 3.5rem;
     text-align: center;
 }
+
 .footer__links__wrapper {
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
+
 .footer__link {
     border: 1px solid var(--primary-color-dark);
     border-radius: 5rem;
